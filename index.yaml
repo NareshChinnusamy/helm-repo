@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  demoapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-27T12:39:09.32777581+05:30"
+    description: DemoApp for setting up kubernetes
+    digest: 5950ed8f86847d00abad1c396d3b7c530987fe2964129ac3a05636e0942ec6f8
+    name: demoapp
+    type: application
+    urls:
+    - https://nareshchinnusamy.github.io/helm-repo/demoapp-2.0.0.tgz
+    version: 2.0.0
   springboot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-27T12:21:04.779384281+05:30"
+    created: "2023-05-27T12:39:09.328463261+05:30"
     description: A Helm chart for Kubernetes
     digest: 0b991307a6487070a44e0e78de07c0150e14ed24810e7aa83c753d0dcfa23ed5
     name: springboot
@@ -13,7 +24,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-27T12:21:04.779023631+05:30"
+    created: "2023-05-27T12:39:09.328165713+05:30"
     description: A Helm chart for Kubernetes
     digest: 09080ed0354a5093f0a073c693ed1e9866606a0af643c7c3a0640d42a50e3340
     name: springboot
@@ -21,4 +32,4 @@ entries:
     urls:
     - https://nareshchinnusamy.github.io/helm-repo/springboot-1.0.0.tgz
     version: 1.0.0
-generated: "2023-05-27T12:21:04.778552519+05:30"
+generated: "2023-05-27T12:39:09.327230383+05:30"
